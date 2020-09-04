@@ -1,0 +1,179 @@
+<mjml lang="fr">
+  <mj-head>
+  <mj-title>Feuille de chou de la Caravane Coop</mj-title>
+    <mj-breakpoint width="480px" />
+    <mj-style>
+      .header h1{
+         font-size: 15px !important;
+         font-weight: normal !important;
+         margin:0 !important;
+      }
+      .title-section h2{
+        font-size:37px !important;
+        margin:0 !important;
+        color:#C60850 !important;
+      }
+      .title-content-article h3{
+        font-size:20px !important;
+        margin: 0 !important;
+        font-weight: normal !important;
+      }
+      .text-content-article{
+        font-size: 13px !important;
+        color: #000000 !important;
+        text-align: left !important;
+      }
+      .text-content-article p{
+        margin: 0 0 10px 0 !important;
+      }
+      .title-content-leaf-ope h2{
+        font-size: 30px !important;
+        font-weight: bold !important;
+        color: #FFFFFF !important;
+        margin:0 !important;
+      }
+      .annonce-ope-section{
+        background-color: #e3a61a !important;
+      }
+      .image-annonce-ope img{
+        width: 100% !important;
+        display: block !important;
+        height: auto !important;
+      }
+      .title-annonce-ope h3{
+        font-size: 30px !important;
+        color: #FFFFFF !important;
+        margin: 0 !important;
+      }
+      .text-ope p{
+        margin: 0 0 10px 0 !important;
+      }
+      .text-table-ope h3{
+        font-size: 24px !important;
+        color=#FFFFFF !important;
+        margin: 0 !important;
+      }
+      .table-ope ul{
+        margin: 0 !important;
+        padding: 0 !important;
+        list-style-position: inside !important;
+      }
+      .text-news p{
+        margin: 0 0 10px 0 !important;
+      }
+      .link-news a{
+        color: #98b644;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .link-news a:hover,
+      .link-news a:focus{
+        text-decoration: underline;
+      }
+
+      @media only screen and (min-width:480px) {
+        .header .image-logo {
+          padding-right: 40px !important;
+        }
+      }
+      @media only screen and (max-width:479px) {
+        .header table, .header td, .header td div{
+          width: 100% !important;
+          text-align:center !important;
+        }
+        .header .image img{
+          display: inline-block !important;
+          width: 100%;
+          height: auto !important;
+        }
+        .image-logo img{
+          max-width: 250px !important;
+        }
+        .image-feuille-de-chou img{
+          max-width: 150px !important;
+        }
+        .title-section{
+          padding-right: 20px !important;
+        }
+        .title-column td{
+          border-right: none !important;
+        }
+        .title{
+          padding-right: 0 !important;
+          padding-bottom: 20px !important;
+        }
+        .socials-column{
+          border-top: solid 1px #dbdbdb !important;
+          border-bottom: solid 1px #dbdbdb !important;
+        }
+        .title-content-article{
+          padding-right: 0 !important;
+          padding-bottom: 10px !important;
+        }
+        .text-content-article{
+          padding-left: 0 !important;
+        }
+        .annonce-ope-section{
+          padding: 20px !important;
+        }
+        .title-annonce-ope{
+          padding: 20px 0 0 0 !important;
+        }
+        .text-raw-news-content-column>table>tbody>tr>td{
+          padding: 20px 20px 0 20px !important;
+        }
+        .cols-news-section>table>tbody>tr>td{
+          padding: 0px !important;
+        }
+        .cols-news-section{
+          padding: 0px !important;
+        }
+        .cols-news-content-column>table>tbody>tr>td{
+          padding: 30px 0 0 0 !important;
+        }
+        .text-footer, .text-footer div{
+          text-align: center !important;
+          display: block !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="600px">
+
+    <mj-raw>
+      <!-- Header -->
+    </mj-raw>
+    <mj-include path="./parts/structure/header.mjml" />
+
+    <mj-raw>
+      <!-- Main article title and social -->
+    </mj-raw>
+    <mj-include path="./parts/content/main_article/title_and_socials.mjml" />
+
+    <mj-raw>
+      <!-- Main article image -->
+    </mj-raw>
+    <mj-include path="./parts/content/main_article/image.mjml" />
+
+    <mj-raw>
+      <!-- Main article contenu -->
+    </mj-raw>
+    <mj-include path="./parts/content/main_article/contenu.mjml" />
+
+    <mj-raw>
+      <!-- Bloc Opérationnel -->
+    </mj-raw>
+    <mj-include path="./parts/content/bloc_ope/conteneur.mjml" />
+    
+    <mj-raw>
+      <!-- Bloc news -->
+    </mj-raw>
+    <mj-include path="./parts/content/news/conteneur.mjml" />
+    
+    <mj-raw>
+      <!-- footer -->
+    </mj-raw>
+    <mj-include path="./parts/structure/footer.mjml" />
+
+  </mj-body>
+</mjml>

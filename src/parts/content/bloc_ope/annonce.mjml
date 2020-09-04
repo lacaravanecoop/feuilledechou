@@ -1,0 +1,12 @@
+<!-- Bloc Annonce Opérationnelle -->
+<mj-section padding="0px 0px 0px 0px" css-class="annonce-ope-section">
+  <mj-column padding="0px" css-class="title-annonce-ope-content-column" vertical-align="middle">
+    <mj-image src="./assets/images/annonce_ope.jpg" fluid-on-mobile="true" padding="0px" align="left" css-class="image image-annonce-ope"></mj-image>
+  </mj-column>
+  <mj-column padding="0px" css-class="title-annonce-ope-content-column" vertical-align="middle">
+    <mj-text padding="0px 20px 0px 20px" align="center" font-weight="600" font-size="30px" color="#FFFFFF" line-height="40px" css-class="title-annonce-ope">
+      <h3 style="font-size: 30px; color: #FFFFFF; margin: 0;">À partir du 15 septembre</h3>
+    </mj-text> 
+  </mj-column>
+</mj-section>
+<mj-raw>

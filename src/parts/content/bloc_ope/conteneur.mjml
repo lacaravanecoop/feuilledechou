@@ -1,0 +1,24 @@
+<!-- Bloc Opérationnel -->
+<mj-wrapper background-color="#98b644" padding="20px" css-class="ope-wrapper">
+
+  <mj-raw>
+    <!-- Bloc Titre Feuille -->
+  </mj-raw>
+  <mj-include path="./titre_feuille.mjml" />
+
+  <mj-raw>
+    <!-- Bloc Annonce Opérationnelle -->
+  </mj-raw>
+  <mj-include path="./annonce.mjml" />
+
+  <mj-raw>
+    <!-- Bloc Texte Opérationnel -->
+  </mj-raw>
+  <mj-include path="./text.mjml" />
+  
+  <mj-raw>
+    <!-- Bloc liste des services -->
+  </mj-raw>
+  <mj-include path="./services.mjml" />
+  
+</mj-wrapper>

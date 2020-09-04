@@ -1,0 +1,17 @@
+<!-- footer -->
+<mj-section padding="10px 0px 10px 0px" css-class="footer-section" background-color="#FFFFFF">
+  <mj-column padding="0px" width="40%" css-class="footer-left-content-column">
+    <mj-text padding="0px" align="left" font-size="14px" color="#000000" line-height="21px" css-class="text-footer-left text-footer">
+      <p>
+        © 2020, Tout droits réservés.
+      </p>
+    </mj-text>
+  </mj-column>
+  <mj-column padding="0px" width="60%" css-class="footer-right-content-column">
+    <mj-text padding="0px" align="right" font-size="14px" color="#000000" line-height="21px" css-class="text-footer-right text-footer">
+      <p>
+        <a href="#" style="color: #000000;">Voir dans le navigateur</a> | <a href="#" style="color: #000000;">Désinscription</a>
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>

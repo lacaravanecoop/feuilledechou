@@ -1,0 +1,14 @@
+<!-- Title and social -->
+<mj-section padding="20px 0px 0 20px" css-class="title-section">
+  <mj-column padding="0px 10px 0px 0px" vertical-align="middle" width="75%" border-right="solid 1px #dbdbdb" css-class="title-column">
+    <mj-text padding="5px 5px 0px 0px" align="left" font-weight="600" font-size="37px" color="#C60850" css-class="title">
+      <h2 style="font-size:37px;margin:0;color:#C60850;">La caravane engage son déconfinement…</h2>
+    </mj-text>
+  </mj-column>
+  <mj-column padding="0px" width="25%" vertical-align="middle" css-class="socials-column">
+    <mj-social padding="20px 15px 15px 10px" icon-size="30px" mode="horizontal">
+      <mj-social-element padding="0px" name="facebook" href="https://fr-fr.facebook.com/Lacaravanedemontreuil/" src="./assets/images/social_facebook.png"></mj-social-element>
+      <mj-social-element padding="0px 0px 0px 10px" name="google" href="#" src="./assets/images/social_empty.png"></mj-social-element>
+    </mj-social>
+  </mj-column>
+</mj-section>

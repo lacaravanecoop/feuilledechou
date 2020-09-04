@@ -1,0 +1,10 @@
+<!-- Bloc Titre Feuille -->
+<mj-section padding="0px 0px 20px 0px" css-class="title-leaf-ope-section">
+  <mj-column padding="0px" css-class="title-leaf-content-column">
+    <mj-image src="./assets/images/leaf.png" padding="0px 0px 10px 0px" width="89px" height="89px" align="center" css-class="image image-content-leaf-ope"></mj-image>
+    <mj-text padding="0px 0px 0px 0px" align="center" font-weight="600" font-size="30px" color="#FFFFFF" line-height="40px" css-class="title-content-leaf-ope">
+      <h2 style="font-size: 30px; font-weight: bold; color: #FFFFFF; margin:0;">De nouveaux horaires élargis et reprise des services des membres.</h2>
+    </mj-text> 
+  </mj-column>
+</mj-section>
+<mj-raw>

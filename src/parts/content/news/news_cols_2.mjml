@@ -1,0 +1,29 @@
+<!-- Bloc news en Colonne -->
+<mj-section padding="30px 0px 0px 0px" css-class="cols-news-section">
+  <mj-column padding="0px 15px 0px 0px" css-class="cols-news-content-column">
+    <mj-image src="./assets/images/news/news4.jpg" fluid-on-mobile="true" padding="0px 0px 0px 0px" align="left" css-class="image image-cols-news image-news"></mj-image>
+    <mj-text container-background-color="#FFFFFF" padding="20px 20px 10px 20px" align="left" font-weight="600" font-size="20px" line-height="30px" css-class="title-cols-news title-news">
+      <div style="display:block; width:170px; height: 20px; background-color: #98b644; margin: 0 0 15px 0;"></div>
+      <h2 style="font-size: 20px; color: #000000; font-weight: bold; margin: 0;">Maecenas vulputate nunc velit.</h2>
+    </mj-text>
+    <mj-text container-background-color="#FFFFFF" padding="0px 20px 25px 20px" align="left" font-size="14px" line-height="21px" css-class="text-cols-news text-news">
+      <p>Etiam hendrerit, elit in tristique interdum, neque lacus viverra dui, lobortis efficitur quam ante luctus felis.</p>
+    </mj-text>
+    <mj-text container-background-color="#FFFFFF" padding="0px 20px 10px 20px" align="center" font-size="14px" color="#98b644" line-height="21px" css-class="link-cols-news link-news">
+      <p><a href="https://www.lacaravanecoop.fr">En savoir plus</a></p>
+    </mj-text>
+  </mj-column>
+  <mj-column padding="0px 0px 0px 15px" css-class="cols-news-content-column">
+    <mj-image src="./assets/images/news/news5.jpg" fluid-on-mobile="true" padding="0px 0px 0px 0px" align="left" css-class="image image-cols-news image-news"></mj-image>
+    <mj-text container-background-color="#FFFFFF" padding="20px 20px 10px 20px" align="left" font-weight="600" font-size="20px" line-height="30px" css-class="title-cols-news title-news">
+      <div style="display:block; width:170px; height: 20px; background-color: #98b644; margin: 0 0 15px 0;"></div>
+      <h2 style="font-size: 20px; color: #000000; font-weight: bold; margin: 0;">Etiam hendrerit, elit in tristique interdum.</h2>
+    </mj-text>
+    <mj-text container-background-color="#FFFFFF" padding="0px 20px 25px 20px" align="left" font-size="14px" line-height="21px" css-class="text-cols-news text-news">
+      <p>Vivamus imperdiet dui nec nisl ultrices, eu laoreet ante pretium. Morbi vitae hendrerit justo.</p>
+    </mj-text>
+    <mj-text container-background-color="#FFFFFF" padding="0px 20px 10px 20px" align="center" font-size="14px" color="#98b644" line-height="21px" css-class="link-cols-news link-news">
+      <p><a href="https://www.lacaravanecoop.fr">En savoir plus</a></p>
+    </mj-text>
+  </mj-column>
+</mj-section>
