@@ -8,6 +8,24 @@
          font-weight: normal !important;
          margin:0 !important;
       }
+      .title-section h2{
+        font-size:37px !important;
+        margin:0 !important;
+        color:#C60850 !important;
+      }
+      .title-content-article h3{
+        font-size:20px !important;
+        margin: 0 !important;
+        font-weight: normal !important;
+      }
+      .text-content-article{
+        font-size: 13px !important;
+        color: #000000 !important;
+        text-align: left !important;
+      }
+      .text-content-article p{
+        margin: 0 0 10px 0 !important;
+      }
 
       @media only screen and (min-width:480px) {
         .header .image-logo {
@@ -24,6 +42,33 @@
           width: 100%;
           height: auto !important;
         }
+        .image-logo img{
+          max-width: 250px !important;
+        }
+        .image-feuille-de-chou img{
+          max-width: 150px !important;
+        }
+        .title-section{
+          padding-right: 20px !important;
+        }
+        .title-column td{
+          border-right: none !important;
+        }
+        .title{
+          padding-right: 0 !important;
+          padding-bottom: 20px !important;
+        }
+        .socials-column{
+          border-top: solid 1px #dbdbdb !important;
+          border-bottom: solid 1px #dbdbdb !important;
+        }
+        .title-content-article{
+          padding-right: 0 !important;
+          padding-bottom: 10px !important;
+        }
+        .text-content-article{
+          padding-left: 0 !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -33,6 +78,21 @@
       <!-- Header -->
     </mj-raw>
     <mj-include path="./parts/structure/header.mjml" />
+
+    <mj-raw>
+      <!-- Main article title and social -->
+    </mj-raw>
+    <mj-include path="./parts/content/main_article/title_and_socials.mjml" />
+
+    <mj-raw>
+      <!-- Main article image -->
+    </mj-raw>
+    <mj-include path="./parts/content/main_article/image.mjml" />
+
+    <mj-raw>
+      <!-- Main article contenu -->
+    </mj-raw>
+    <mj-include path="./parts/content/main_article/contenu.mjml" />
 
   </mj-body>
 </mjml>

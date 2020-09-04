@@ -1,0 +1,20 @@
+<!-- Main article contenu -->
+<mj-section padding="0px 20px 10px 20px" css-class="content-article-section">
+  <mj-column padding="0px" css-class="title-content-article-column">
+    <mj-text padding="0px 20px 0px 0px" align="left" font-weight="400" font-size="20px" line-height="30px" color="#000000" css-class="title-content-article">
+      <h3 style="font-size:20px; margin: 0 0 10px 0; font-weight: normal;">Lorem ipsum dolor sit amet, consectetur adipiscing elit psum dolor sit amet ipsum dolor sit amet.</h3>
+    </mj-text>
+  </mj-column>
+  <mj-column padding="0px" css-class="text-content-article-column">
+    <mj-text padding="0px 0px 0px 20px" align="left" font-weight="400" font-size="13px" color="#000000" line-height="20px" css-class="text-content-article">
+      <div style="font-size: 13px; color: #000000; text-align: left;">
+        <p>
+          Pellentesque vel dolor gravida, blandit ante eget, pretium justo.
+        </p>
+        <p>
+          Vivamus imperdiet dui nec nisl ultrices, eu laoreet ante pretium. Morbi vitae hendrerit justo. Maecenas vulputate nunc velit, vitae euismod ex consequat nec. Etiam hendrerit, elit in tristique interdum, neque lacus viverra dui, lobortis efficitur quam ante luctus felis.
+        </p>
+      </div>
+    </mj-text> 
+  </mj-column>
+</mj-section>

@@ -1,0 +1,6 @@
+<!-- Article image -->
+<mj-section padding="20px" css-class="image-article-section">
+  <mj-column padding="0" css-class="image-article-column">
+    <mj-image src="./assets/images/image-article.jpg" align="center" padding="0px" css-class="image image-article"></mj-image>
+  </mj-column>
+</mj-section>
