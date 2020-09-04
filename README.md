@@ -1,43 +1,43 @@
 # La Feuille de chou.
 Email template for lacaravanecoop newsletter, "La feuille de chou" ; integrated upon [mjml](https://mjml.io) templating engine.
 
-##Requirements :
+## Requirements :
 - Git and Git Flow
 - Node (14.2.0) and npm(6.14.4) (via [Node Version Manager](https://github.com/nvm-sh/nvm))
 
-##Includes :
+## Includes :
 - MJML to HTML generation
 - images optimisation
 
-##Installation :
+## Installation :
 
-###Get the repo
+### Get the repo
 ``` bash
 $ git@github.com:lacaravanecoop/feuilledechou.git ./feuilledechoux
 ```
 
-###Install dependencies
+### Install dependencies
 ``` bash
 $ npm install
 ```
 
-##Tasks
+## Tasks
 
 All the tasks works the same. Files from "src" folder are processed and generated in the dest directory.
 
-###Build
+### Build
 Standalone build
 ``` bash
 $ npm run build
 ```
 
-###Watch
+### Watch
 Build as any "src" files are modificated
 ``` bash
 $ npm run watch
 ```
 
-##Workspace
+## Workspace
 ``` bash
 -
 |--cli
@@ -65,7 +65,7 @@ $ npm run watch
 -
 ```
 
-#Next steps
+## Next steps
 tests, tests and retests
 
 Kisses and love, anvy questions or suggestions are welcome.
