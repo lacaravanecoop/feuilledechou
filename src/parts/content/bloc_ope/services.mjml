@@ -1,0 +1,72 @@
+<!-- Bloc liste des services -->
+<mj-section padding="10px 0px 0px 0px" css-class="table-ope-section">
+  <mj-column padding="0px" css-class="table-op-content-column">
+    <mj-text padding="0px 0px 10px 0px" align="left" font-weight="600" font-size="24px" color="#FFFFFF" line-height="32px" css-class="text-table-ope">
+      <h3 style="font-size: 24px; color=#FFFFFF; margin: 0;">Liste des services</h3>
+    </mj-text>
+    <mj-image src="./assets/images/tableau_services.png" fluid-on-mobile="true" padding="0px 0px 10px 0px" align="left" css-class="image image-table-ope"></mj-image>
+    <mj-table padding="0px" align="left" color="#FFFFFF" css-class="table-ope">
+      <thead>
+        <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:10px 0;color: #FFFFFF; font-size: ">
+          <th style="padding: 0 10px 0 0;">Lundi</th>
+          <th style="padding: 0 10px;">Mercredi</th>
+          <th style="padding: 0 0 0 10px;">Vendredi</th>
+          <th style="padding: 0 0 0 10px;">Samedi</th>
+        </tr>
+      </thead>
+      <tbody style="text-align: left; vertical-align: top;">
+        <tr>
+          <td style="padding: 0 10px 0 0;">
+            <ul>
+              <li>
+                09h-12h : Livraison
+              </li>
+              <li>
+                17h-20h : Vente
+              </li>
+            </ul>
+          </td>
+          <td style="padding: 0 10px;">
+            <ul>
+              <li>
+                09h-12h : vente
+              </li>
+              <li>
+                10h-11h : Livraison
+              </li>
+              <li>
+                14h-17h : Vente
+              </li>
+              <li>
+                17h-20h : Vente
+              </li>
+            </ul>
+          </td>
+          <td style="padding: 0 0 0 10px;">
+            <ul>
+              <li>
+                09h-12h : Livraison
+              </li>
+              <li>
+                18h-21h : Vente
+              </li>
+            </ul>
+          </td>
+          <td style="padding: 0 0 0 10px;">
+            <ul>
+              <li>
+                09h-12h : Vente
+              </li>
+              <li>
+                12h-15h : Vente
+              </li>
+              <li>
+                15h-18h : Vente
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </mj-table>
+  </mj-column>
+</mj-section>

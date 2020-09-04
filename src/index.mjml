@@ -26,6 +26,38 @@
       .text-content-article p{
         margin: 0 0 10px 0 !important;
       }
+      .title-content-leaf-ope h2{
+        font-size: 30px !important;
+        font-weight: bold !important;
+        color: #FFFFFF !important;
+        margin:0 !important;
+      }
+      .annonce-ope-section{
+        background-color: #e3a61a !important;
+      }
+      .image-annonce-ope img{
+        width: 100% !important;
+        display: block !important;
+        height: auto !important;
+      }
+      .title-annonce-ope h3{
+        font-size: 30px !important;
+        color: #FFFFFF !important;
+        margin: 0 !important;
+      }
+      .text-ope p{
+        margin: 0 0 10px 0 !important;
+      }
+      .text-table-ope h3{
+        font-size: 24px !important;
+        color=#FFFFFF !important;
+        margin: 0 !important;
+      }
+      .table-ope ul{
+        margin: 0 !important;
+        padding: 0 !important;
+        list-style-position: inside !important;
+      }
 
       @media only screen and (min-width:480px) {
         .header .image-logo {
@@ -69,6 +101,12 @@
         .text-content-article{
           padding-left: 0 !important;
         }
+        .annonce-ope-section{
+          padding: 20px !important;
+        }
+        .title-annonce-ope{
+          padding: 20px 0 0 0 !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -93,6 +131,11 @@
       <!-- Main article contenu -->
     </mj-raw>
     <mj-include path="./parts/content/main_article/contenu.mjml" />
+
+    <mj-raw>
+      <!-- Bloc Opérationnel -->
+    </mj-raw>
+    <mj-include path="./parts/content/bloc_ope/conteneur.mjml" />
 
   </mj-body>
 </mjml>

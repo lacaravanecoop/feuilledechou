@@ -1,0 +1,13 @@
+<!-- Bloc Texte Opérationnel -->
+<mj-section padding="20px 0px 0px 0px" css-class="text-ope-section">
+  <mj-column padding="0px" css-class="text-op-content-column">
+    <mj-text padding="0px 0px 0px 0px" align="left" font-weight="600" font-size="16px" color="#FFFFFF" line-height="23px" css-class="text-ope">
+      <p>
+        Les services reprennent peu à peu avec 4 membres.<br>
+        Bien que facultatifs pour le moment, ils sont nécessaires au fonctionnement pour le moment, ils sont nécessaires au fonctionnement de l'épicerie. Pour celles et ceux qui ne l'ont pas encore fait, vous pouvez vous inscrire aux nouveaux créneaux et poser vos questions sur l'organisation en envoyant un mail au bureau des membres (celui-ci n'a actuellement, pas de permermanence physique)
+      </p>
+      <p>Bureau des membre : <a href="mailto:bdm@lacaravanecoop.fr" style="color:#FFFFFF;">bdm@lacaravanecoop.fr</a>.</p>
+      <p>N'oubliez pas d'indiquer votre n° de tel afin que l'on puisse vous rappeler.</p>
+    </mj-text>
+  </mj-column>
+</mj-section>
