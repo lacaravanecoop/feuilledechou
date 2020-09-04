@@ -1,0 +1,18 @@
+<!-- Bloc news en ligne -->
+<mj-section padding="0px 0px 0px 0px" css-class="raw-news-section" background-color="#FFFFFF">
+  <mj-column padding="0px" css-class="image-raw-news-content-column">
+    <mj-image src="./assets/images/news/news1.jpg" fluid-on-mobile="true" padding="0px 0px 0px 0px" align="left" css-class="image image-raw-news image-news"></mj-image>
+  </mj-column>
+  <mj-column padding="10px 30px 0px 30px" css-class="text-raw-news-content-column">
+    <mj-text padding="0px 0px 10px 0px" align="left" font-weight="600" font-size="20px" line-height="30px" css-class="title-raw-news title-news">
+      <div style="display:block; width:170px; height: 20px; background-color: #98b644; margin: 0 0 15px 0;"></div>
+      <h2 style="font-size: 20px; color: #000000; font-weight: bold; margin: 0;">Velit actuor aliquet.</h2>
+    </mj-text>
+    <mj-text padding="0px 0px 25px 0px" align="left" font-size="14px" line-height="21px" css-class="text-raw-news text-news">
+      <p>Vivamus imperdiet dui nec nisl ultrices, eu laoreet ante pretium.</p>
+    </mj-text>
+    <mj-text padding="0px 0px 10px 0px" align="center" font-size="14px" color="#98b644" line-height="21px" css-class="link-raw-news link-news">
+      <p><a href="https://www.lacaravanecoop.fr">En savoir plus</a></p>
+    </mj-text>
+  </mj-column>
+</mj-section>

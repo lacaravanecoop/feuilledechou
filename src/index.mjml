@@ -58,6 +58,18 @@
         padding: 0 !important;
         list-style-position: inside !important;
       }
+      .text-news p{
+        margin: 0 0 10px 0 !important;
+      }
+      .link-news a{
+        color: #98b644;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .link-news a:hover,
+      .link-news a:focus{
+        text-decoration: underline;
+      }
 
       @media only screen and (min-width:480px) {
         .header .image-logo {
@@ -107,6 +119,18 @@
         .title-annonce-ope{
           padding: 20px 0 0 0 !important;
         }
+        .text-raw-news-content-column>table>tbody>tr>td{
+          padding: 20px 20px 0 20px !important;
+        }
+        .cols-news-section>table>tbody>tr>td{
+          padding: 0px !important;
+        }
+        .cols-news-section{
+          padding: 0px !important;
+        }
+        .cols-news-content-column>table>tbody>tr>td{
+          padding: 30px 0 0 0 !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -136,6 +160,11 @@
       <!-- Bloc Opérationnel -->
     </mj-raw>
     <mj-include path="./parts/content/bloc_ope/conteneur.mjml" />
+    
+    <mj-raw>
+      <!-- Bloc news -->
+    </mj-raw>
+    <mj-include path="./parts/content/news/conteneur.mjml" />
 
   </mj-body>
 </mjml>

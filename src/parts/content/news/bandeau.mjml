@@ -1,0 +1,6 @@
+<!-- bandeau réunion d'infos -->
+<mj-section padding="30px 0px 0px 0px" css-class="bandeau-reunion-info-section">
+  <mj-column padding="20px 0px 20px 0px" css-class="bandeau-reunion-info-content-column" background-color="#FFFFFF">
+    <mj-image src="./assets/images/bandeau_reunion_info.png" href="mailto:contact@lacaravanecoop.fr" fluid-on-mobile="true" padding="0px 0px 0px 0px" align="left" css-class="image image-bandeau-reunion-info"></mj-image>
+  </mj-column>
+</mj-section>

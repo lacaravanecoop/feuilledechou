@@ -1,0 +1,25 @@
+<mj-raw>
+  <!-- Bloc news -->
+</mj-raw>
+<mj-wrapper background-color="#F1F1F1" padding="30px 20px 60px 20px" css-class="actu-wrapper">
+  <mj-raw>
+    <!-- Bloc news en ligne -->
+  </mj-raw>
+  <mj-include path="./news_row.mjml" />
+  
+  <mj-raw>
+    <!-- Bloc news en Colonne -->
+  </mj-raw>
+  <mj-include path="./news_cols_1.mjml" />
+  
+  <mj-raw>
+    <!-- Bloc news en Colonne -->
+  </mj-raw>
+  <mj-include path="./news_cols_2.mjml" />
+
+  <mj-raw>
+    <!-- bandeau réunion d'infos -->
+  </mj-raw>
+  <mj-include path="./bandeau.mjml" />
+  
+</mj-wrapper>
