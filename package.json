@@ -1,0 +1,45 @@
+{
+  "name": "Caravanecoop_Feuille_de_Chou",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mjml": "./node_modules/.bin/mjml ./src/index.mjml -o ./dest/index.html --config.beautify  --config.mjmlConfigPath ./src",
+    "imagemin": "node ./cli/imagemin.js",
+    "build": "npm run mjml && npm run imagemin",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "mjml": {
+      "patterns": [
+        "src/"
+      ],
+      "extensions": "mjml"
+    },
+    "imagemin": {
+      "patterns": [
+        "src/assets/images/"
+      ],
+      "extensions": [
+        "png",
+        "jpg",
+        "jpeg"
+      ]
+    }
+  },
+  "keywords": [
+    "mjml",
+    "caravanecoop",
+    "feuilledechou"
+  ],
+  "author": "LDDLP",
+  "license": "MIT",
+  "dependencies": {
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-keep-folder": "^5.3.2",
+    "imagemin-pngquant": "^9.0.0",
+    "mjml": "^4.7.0-beta.2",
+    "mjml-image": "^4.6.3",
+    "npm-watch": "^0.7.0"
+  }
+}
